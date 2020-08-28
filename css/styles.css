@@ -200,6 +200,7 @@ p{
 /* about */
 .about-img, .about-info{
     padding: 2rem 0;
+
 }
 .about-picture-container{
     background: var(--clr-primary);
@@ -232,7 +233,7 @@ p{
 .products{
     background: var(--clr-grey-10);
 }
-.product article {
+.products article{
     padding: 2rem 0;
 }
 .product-text{
@@ -251,15 +252,29 @@ p{
 .product-price{
     color: var(--clr-primary);
 }
-@media screen and (min-width){
+@media screen and (min-width: 768px){
     .product{
         float: left;
         width: 50%;
         padding-right: 2rem;
     }
 }
-@media screen and (min-width){
+@media screen and (min-width: 992px){
     .product{
-        width: 33%;
+        width: 33.3%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .products-info{
+        float: left;
+        width: 30%;
+    }
+    .products-inventory{
+        float: left;
+        width: 70%;
+    }
+    .product{
+        margin-bottom: 0;
+        padding: 0 1rem;
     }
 }
